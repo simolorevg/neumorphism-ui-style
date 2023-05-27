@@ -1,0 +1,93 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*COMMON*/
+body {
+    background-color: #ebeef1;
+    font-family: 'Sky Text', sans-serif;
+}
+
+/*BUTTON SECTION*/
+/*CONTAINER-BTN LAYOUT*/
+.container-btn {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*MAIN BUTTON LAYOUT*/
+button {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    background-color: #ebeef1;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow: 29px -29px 58px #acacac,
+        -29px 29px 58px #ffffff;
+    border-radius: 50px;
+}
+
+/*SUCCESS BUTTON LAYOUT*/
+.success {
+    color: #00a037;
+}
+
+/*ERROR BUTTON LAYOUT*/
+.error {
+    color: #ed0000;
+    box-shadow: inset 29px -29px 58px #acacac,
+        inset -29px 29px 58px #ffffff;
+}
+
+/*CARDS SECTION*/
+/*CARD CONTAINER LAYOUT*/
+.container-cards {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+    padding: 10px;
+}
+
+/*CARD LAYOUT*/
+.card {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 9px 9px 18px #5a5a5a,
+        -9px -9px 18px #ffffff;
+}
+
+/*CARD CHILDS*/
+.card-img {
+    width: 100%;
+    height: 55%;
+    border-radius: 50px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 50px 0 0;
+}
+
+.card-text {
+    flex-grow: 1;
+    border-radius: 20px;
+    border-radius: 0 0 50px 50px;
+}
